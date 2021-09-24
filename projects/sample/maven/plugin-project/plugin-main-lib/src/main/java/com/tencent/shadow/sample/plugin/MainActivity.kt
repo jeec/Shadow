@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
     /**
      * 1.插件单独运行时，以下两种viewModel都可正常工作;
      * 2.release环境下：
-     *                  a>宿主启动当前activity后，liveData工作不正常;
-     *                  b>根据报错信息来看：方式二的viewModel因继承AndroidViewModel(),不能正常创建实例。
+     *                  a>>宿主启动当前activity后，liveData工作不正常;
+     *                  b>>根据报错信息来看：方式二的viewModel因继承AndroidViewModel(),不能正常创建实例。
      */
 
     //方式一viewModel继承ViewModel()：
